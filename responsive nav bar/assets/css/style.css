@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,800&display=swap');
+
+
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+nav {
+    padding: 30px 0px;
+}
+
+.navbar {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: xx-large;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.align-items {
+    align-items: center;
+}
+
+ul {
+    padding: 0;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.home {
+    font-size: larger;
+}
+
+.home1 {
+    font-size: large;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    background-color: royalblue;
+    color: aliceblue;
+    padding: 10px 20px;
+}
+
+.home1:hover {
+    background-color: deepskyblue;
+    border: 2px solid royalblue;
+    transition: all 300ms linear;
+}
+
+.naman {
+    font-size: 150px;
+    color: orange;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+
+
+}
+
+.justify-content {
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    label[for="icon"] {
+        width: 30px;
+        height: 25px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        position: fixed;
+        top: 15px;
+        right: 20px;
+        z-index: 3;
+    }
+
+    label[for="icon"]>span {
+        width: 100%;
+        height: 5px;
+        border-radius: 5px;
+        background-color: greenyellow;
+
+    }
+
+
+
+
+    .mobile-view {
+        display: flex;
+        background-color: orange;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 2;
+        transition: all 200ms linear;
+
+    }
+
+    ul>li {
+        padding-bottom: 30px;
+    }
+
+    .right-0 {
+        right: 0;
+    }
+
+
+
+}
+
+@media (max-width: 576px) {
+    .naman {
+        font-size: 70px;
+    }
+}
